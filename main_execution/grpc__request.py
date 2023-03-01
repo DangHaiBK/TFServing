@@ -286,7 +286,8 @@ class Detector(object):
 
 if __name__ == '__main__':
 
-    img_path = 'storage/mbape.jpeg' 
+    img_path = 'path/to/your/test/img'
+    # img_path = 'storage/mbape.jpeg' 
     detector = Detector()
     image = cv2.imread(img_path)   
     rectangles = detector.detect(image)
