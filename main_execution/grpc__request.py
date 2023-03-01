@@ -1,13 +1,6 @@
-from os.path import join;
-
 import grpc
-import json;
-import requests;
-import numpy as np;
 import cv2;
 import tensorflow as tf;
-
-from PIL import Image
 
 from tensorflow_serving.apis import predict_pb2
 from tensorflow_serving.apis import prediction_service_pb2_grpc
