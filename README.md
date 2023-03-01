@@ -18,4 +18,5 @@ Secondly, we need to bind the project folder on Docker to run a container
 A container will be created and run, and Server starts.
 
 In the folder "main_execution":
-* 
+* File convert_model.py: convert h5 model to pb model.
+* File grpc_request.py: send request based on grpc to request the server.
